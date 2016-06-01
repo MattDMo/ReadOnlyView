@@ -1,0 +1,70 @@
+[
+    {
+        "id": "view",
+        "children":
+        [
+            {
+                "caption": "-",
+                "id": "ReadOnlyView"
+            },
+            { "command": "toggle_read_only_view", "caption": "Read-Only View", "checkbox": true }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                // Include this information in case it is the only package using that menu
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Read-Only View",
+                        "children":
+                        [
+                            // Settings - Default
+                            {
+                                "caption": "Settings — Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Read-Only View/Read-Only View.sublime-settings"
+                                }
+                            },
+                            // Settings - User
+                            {
+                                "caption": "Settings — User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Read-Only View.sublime-settings"
+                                }
+                            },
+                            { "caption": "-" },
+
+                            // Key Bindings - Default
+                            {
+                                "caption": "Key Bindings — Default",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/Read-Only View/Default ($platform).sublime-keymap"
+                                }
+                            },
+                            // Key Bindings - User
+                            {
+                                "caption": "Key Bindings — User",
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default ($platform).sublime-keymap"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

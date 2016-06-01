@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "ReadOnlyView: Set View as Read-Only",
+        "command": "make_view_read_only"
+    },
+    {
+        "caption": "ReadOnlyView: Set View as Writeable",
+        "command": "make_view_writeable"
+    }
+]

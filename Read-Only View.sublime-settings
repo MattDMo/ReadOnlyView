@@ -1,0 +1,7 @@
+{
+    // List of file extensions to automatically load as read-only. For example, [".ext1", ".ext2"]
+    "read_only_extensions": [],
+
+    // List of filenames to automatically load as read-only. For example, ["Gruntfile", "LICENSE"]
+    "read_only_filenames": []
+}
