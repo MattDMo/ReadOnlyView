@@ -27,7 +27,6 @@
                         "caption": "Read-Only View",
                         "children":
                         [
-                            // Settings - Default
                             {
                                 "caption": "Settings — Default",
                                 "command": "open_file",
@@ -35,7 +34,6 @@
                                     "file": "${packages}/Read-Only View/Read-Only View.sublime-settings"
                                 }
                             },
-                            // Settings - User
                             {
                                 "caption": "Settings — User",
                                 "command": "open_file",
@@ -43,9 +41,9 @@
                                     "file": "${packages}/User/Read-Only View.sublime-settings"
                                 }
                             },
+
                             { "caption": "-" },
 
-                            // Key Bindings - Default
                             {
                                 "caption": "Key Bindings — Default",
                                 "command": "open_file",
@@ -53,7 +51,6 @@
                                     "file": "${packages}/Read-Only View/Default ($platform).sublime-keymap"
                                 }
                             },
-                            // Key Bindings - User
                             {
                                 "caption": "Key Bindings — User",
                                 "command": "open_file",
