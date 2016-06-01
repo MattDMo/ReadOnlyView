@@ -4,10 +4,24 @@
         "children":
         [
             {
-                "caption": "-",
-                "id": "ReadOnlyView"
+                "caption": "-"
             },
-            { "command": "toggle_read_only_view", "caption": "Read-Only View", "checkbox": true }
+            {
+                "command": "toggle_read_only_view",
+                "caption": "Read-Only View",
+                "checkbox": true
+            },
+            {
+                "command": "make_view_read_only",
+                "caption": "Set View as Read-Only"
+            },
+            {
+                "command": "make_view_writeable",
+                "caption": "Set View as Writeable"
+            },
+            {
+                "caption": "-"
+            }
         ]
     },
     {
