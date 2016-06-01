@@ -1,5 +1,8 @@
 [
     {
+        "caption": "-"
+    },
+    {
         "command": "toggle_read_only_view", "caption": "Read-Only View", "checkbox": true
     },
     {
